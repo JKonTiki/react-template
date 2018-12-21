@@ -1,0 +1,28 @@
+@import 'src/styles/_index';
+
+.auth-rct-component {
+  height: 100%;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  background-color: $off-white;
+  .form {
+    padding: 25px 40px;
+    background-color: $white;
+    width: 400px;
+    border: 2px $primary solid;
+    box-shadow: 0.2em 0.2em 0.6em #ddd;
+    border-radius: 8px;
+  }
+  .button-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  }
+  .submit-button {
+    margin-top: 40px;
+    align-self: center;
+  }
+}
